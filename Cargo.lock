@@ -1457,7 +1457,7 @@ dependencies = [
 
 [[package]]
 name = "qiskit-accelerate"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
  "approx",
  "hashbrown 0.15.3",
@@ -1481,21 +1481,25 @@ dependencies = [
 
 [[package]]
 name = "qiskit-cext"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
+ "ahash 0.8.12",
  "cbindgen",
+ "indexmap",
  "nalgebra",
  "ndarray",
  "num-complex",
  "pyo3",
  "qiskit-circuit",
  "qiskit-quantum-info",
+ "qiskit-transpiler",
+ "smallvec",
  "thiserror 2.0.12",
 ]
 
 [[package]]
 name = "qiskit-circuit"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
  "ahash 0.8.12",
  "approx",
@@ -1520,7 +1524,7 @@ dependencies = [
 
 [[package]]
 name = "qiskit-pyext"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
  "pyo3",
  "qiskit-accelerate",
@@ -1535,7 +1539,7 @@ dependencies = [
 
 [[package]]
 name = "qiskit-qasm2"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
  "hashbrown 0.15.3",
  "num-bigint",
@@ -1545,7 +1549,7 @@ dependencies = [
 
 [[package]]
 name = "qiskit-qasm3"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
  "ahash 0.8.12",
  "hashbrown 0.15.3",
@@ -1561,7 +1565,7 @@ dependencies = [
 
 [[package]]
 name = "qiskit-quantum-info"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
  "ahash 0.8.12",
  "approx",
@@ -1577,6 +1581,9 @@ dependencies = [
  "numpy",
  "pyo3",
  "qiskit-circuit",
+ "rand 0.9.1",
+ "rand_distr 0.5.1",
+ "rand_pcg 0.9.0",
  "rayon",
  "rustworkx-core",
  "thiserror 2.0.12",
@@ -1584,7 +1591,7 @@ dependencies = [
 
 [[package]]
 name = "qiskit-synthesis"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
  "ahash 0.8.12",
  "approx",
@@ -1617,7 +1624,7 @@ dependencies = [
 
 [[package]]
 name = "qiskit-transpiler"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
  "ahash 0.8.12",
  "approx",
